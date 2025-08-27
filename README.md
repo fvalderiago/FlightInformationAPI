@@ -28,47 +28,49 @@ A simple RESTful API for managing flight information. This project uses ASP.NET 
 
 status is an enum with values: Scheduled, Delayed, Cancelled, Departed, Arrived.
 
-Getting Started
+### Getting Started
 Prerequisites
 .NET 8.0 SDK
 
 Visual Studio 2022+ or VS Code
 
-Setup & Run
+### Setup & Run
+
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/FlightInformationAPI.git
 cd FlightInformationAPI
+
+
 Restore dependencies:
 
-bash
-Copy code
 dotnet restore
+
+
 Run the API:
 
-bash
-Copy code
 dotnet run --project FlightInformationAPI
+
+
 Navigate to Swagger UI to test endpoints:
 
-bash
-Copy code
 https://localhost:5001/swagger/index.html
-Running Tests
+
+
+
+### Running Tests
 The project uses xUnit for unit testing and an in-memory repository for isolation.
 
-bash
-Copy code
 dotnet test
+
+
 You should see all tests passing for the controller and service layers.
 
-Notes
-In-memory repository is used for demonstration and testing. For production, replace it with EF Core + SQL Server or another database.
+Notes:
+- In-memory repository is used for demonstration and testing.
 
-Validation is implemented using Data Annotations.
+- Validation is implemented using Data Annotations.
 
-Logging is implemented via ILogger.
+- Logging is implemented via ILogger.
 
-Search endpoint supports filtering by airline, departure airport, arrival airport, date range, and status.
+- Search endpoint supports filtering by airline, departure airport, arrival airport, date range, and status.
