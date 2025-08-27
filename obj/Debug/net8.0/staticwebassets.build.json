@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z47S+zne2nWpAGL1qpwyADGrh1ThonbhQytjAmojdFs=",
+  "Source": "FlightInformationAPI",
+  "BasePath": "_content/FlightInformationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
