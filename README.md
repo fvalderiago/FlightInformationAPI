@@ -26,6 +26,7 @@ A simple RESTful API for managing flight information. This project uses ASP.NET 
   "arrivalTime": "2025-06-25T11:00:00",
   "status": "Scheduled"
 }
+
 status is an enum with values: Scheduled, Delayed, Cancelled, Departed, Arrived.
 
 Getting Started
