@@ -15,7 +15,6 @@ A simple RESTful API for managing flight information. This project uses ASP.NET 
 
 ### Flight Model
 
-```json
 {
   "id": 1,
   "flightNumber": "NZ200",
